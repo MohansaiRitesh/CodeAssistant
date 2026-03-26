@@ -39,13 +39,13 @@ Memory                 Stores the last 10 conversation turns (ConversationBuffer
 
 ```
 code_assistant/
-├── .env               🔑  Your Groq API key (never commit this!)
-├── .gitignore         🚫  Keeps .env out of GitHub
-├── requirements.txt   📦  Python dependencies
-├── tools.py           🛠️  5 tools the agent can call
-├── agent.py           🧠  LLM + Agent + Memory setup
-├── app.py             💬  Terminal chat interface (run this)
-└── README.md          📖  This file
+├── .env              
+├── .gitignore        
+├── requirements.txt  
+├── tools.py           5 tools the agent can call
+├── agent.py           LLM + Agent + Memory setup
+├── app.py             Terminal chat interface
+└── README.md          
 ```
 
 ---
